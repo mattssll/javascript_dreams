@@ -1,0 +1,20 @@
+{
+  "name": "restifywmongoapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mo": "^1.7.3",
+    "mongoose": "^5.13.2",
+    "mongoose-string-query": "^0.2.7",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^8.5.1",
+    "restify-errors": "^8.0.2",
+    "restify-plugins": "^1.6.0"
+  }
+}
