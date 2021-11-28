@@ -1,4 +1,4 @@
-# Welcome to the Javascript Monorepo
+# Welcome to the Javascript Monorepo  
 This repo contains many projects and studies in Javascript.
 Besides Javascript there will be some additional content with databases such as postgresql, also docker & kubernetes to deploy and containarize our apps so they can be replicable; terraform for infra if needed, and whoever knows what else.
 
