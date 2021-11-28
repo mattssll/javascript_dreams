@@ -1,0 +1,20 @@
+{
+  "name": "testscircle",
+  "version": "1.0.0",
+  "description": "this is a simple implementation of circle ci and js tests with jest",
+  "main": "mycalculator",
+  "keywords": [
+    "jest",
+    "unittest",
+    "javascript",
+    "circleci"
+  ],
+  "author": "mateussll",
+  "license": "ISC",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
