@@ -1,0 +1,17 @@
+# starting a new server of redis
+cd redis-6.2.1
+make
+src/redis-server # to start the server
+src/redis-cli # to enter the cli
+
+# set password
+config get requirepass
+config set requirepass $!banJ0210196!$
+
+
+ 
+# some redis commands
+set key value
+hset key field value
+hgetall key
+
