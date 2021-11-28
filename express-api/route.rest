@@ -1,0 +1,29 @@
+GET http://localhost:3005/subscribers
+
+###
+
+GET http://localhost:3005/subscribers/60b9478e60dcb0253613d8ee
+
+###
+
+POST http://localhost:3005/subscribers/
+Content-Type: application/json
+
+{
+    "name" : "Marvin Gale",
+    "subscribedToChannel" : "MyWebsite2"
+}
+
+### 
+
+DELETE http://localhost:3005/subscribers/60b948146bde8c2558dfaf21
+
+### 
+
+PATCH http://localhost:3005/subscribers/60b948146bde8c2558dfaf21
+Content-Type: application/json
+
+{
+    "name" : 123,
+    "subscribedToChannel" : "MyWebsiteNew"
+}
