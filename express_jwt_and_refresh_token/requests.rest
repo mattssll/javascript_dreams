@@ -1,0 +1,14 @@
+POST http://localhost:3000/login HTTP/1.1
+content-type: application/json
+
+{
+    "username": "Ted"
+}
+
+### Get token from POST and pass to GET request
+
+
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVGVkIiwiaWF0IjoxNjM4MTI5Mjc1fQ.qvvx-rlOJLFxLZS-IKiSG6uOZ6AkZ75ljnw3G-FvJww
+
+

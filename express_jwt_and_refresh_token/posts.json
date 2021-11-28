@@ -1,0 +1,13 @@
+{
+    "posts" : 
+        [
+            {
+                "name" : "John",
+                "title" : "Post 1"
+            },
+            {
+                "name" : "Ted",
+                "title" : "Post 2"
+            }
+        ]
+}
